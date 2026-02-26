@@ -70,3 +70,10 @@ update_conda_package urllib3 "2.6.3"
 
 # https://nvd.nist.gov/vuln/detail/CVE-2025-6176
 update_conda_package brotli "1.2.0"
+
+# https://github.com/advisories/GHSA-58pv-8j8x-9vj2
+update_conda_package /opt/conda/lib/python3.12 jaraco.context "6.1.0" 
+
+# https://github.com/advisories/GHSA-8rrh-rw8j-w5fx
+update_conda_package /opt/conda/lib/python3.12 wheel "0.46.2"
+

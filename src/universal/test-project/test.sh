@@ -191,6 +191,8 @@ checkCondaPackageVersion "cryptography" "44.0.1"
 checkCondaPackageVersion "pyopenssl" "25.0.0"
 checkCondaPackageVersion "urllib3" "2.6.3"
 checkCondaPackageVersion "brotli" "1.2.0"
+checkCondaPackageVersion "jaraco.context" "6.1.0"
+checkCondaPackageVersion "wheel" "0.46.2"
 
 ## Test Conda
 check "conda-update-conda" bash -c "conda update -y conda"
